@@ -206,10 +206,16 @@ label { color:#e0d8e9; }input,select { color:#fff; background-color:#0c0d19; bor
 .award-card small { color:#d1c1cf; font-size:12px; line-height:1.4; }
 @media (max-width:500px) { .powerup-panel { align-items:stretch; flex-direction:column; }.powerup-actions { display:grid; grid-template-columns:1fr 1fr; }.awards-list { grid-template-columns:1fr; } }
 
+  .quiz-visits { text-align:center; padding:10px 16px max(16px,env(safe-area-inset-bottom)); color:#c9bbca; font:600 12px/20px system-ui,sans-serif; }
+.quiz-visits img { vertical-align:middle; }
   </style>
 </head>
 <body>
   <div id="root"></div>
+  <div class="quiz-visits" title="Visitas acumuladas a We Love Live Quiz">
+    <img src="https://hits.sh/welovelive.es/we-love-live-quiz.svg?label=Visitas&amp;color=722d78&amp;labelColor=312435" height="20" referrerpolicy="no-referrer" alt="Contador de visitas" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+    <span hidden>Visitas · contador no disponible</span>
+  </div>
   <noscript>Activa JavaScript para jugar a We Love Live Quiz.</noscript>
   <script>
     window.__QUIZ_API_BASE__ = "https://we-love-live-quiz-amigos-26.annualclematis8.chatgpt.site";
